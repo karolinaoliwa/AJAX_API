@@ -1,48 +1,47 @@
-body {
-    background-color: #39A9F1;
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    margin: 0auto;
-    text-align: center;
-}
-h1 {
-    font-size: 80px;
-    margin-top: 100px;
-}
-.quote {
-    font-size: 40px;
-    margin-top: 150px;
-}
-.author {
-    font-size: 40px;
-}
-.trigger {
-    width: 400px;
-    height: 50px;
-    margin-bottom: 50px;
-    background-color: #39a9f1;
-    color: #ffffff;
-    font-size: 25px;
-    border-radius: 5px;
-}
-.tweetit {
-    width: 400px;
-    height:50px;
-    background-color: #39a9f1;
-    color: #ffffff;
-    font-size: 25px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-.fa fa-twitter {
-    color: white;
-}
-a:link { 
-    color:white;
-     text-decoration: none; 
-    }
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-a:visited { 
-    color: white; 
-    text-decoration: none; 
+body {
+	box-sizing: border-box;
+    background-color: hsl(195, 4%, 78%);
+    font-family: 'Roboto', sans-serif;
+    color: black;
+	text-align: center;
+}
+h1 {   
+    font-size: 60px;	
+}
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+#search {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid black;
+    
+}
+#saerch:hover {
+    background-color: #666666;
+    color: #fff;
+}
+#country-name {
+    width: 200px;
+    height: 35px;
+}
+main {
+	text-align: center;
+	height: 100vh;
+}
+ul {
+	list-style: none;
+}
+
+ul {
+	padding: 0;
 }
